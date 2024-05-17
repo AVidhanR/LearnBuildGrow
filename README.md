@@ -11,7 +11,11 @@
   ```bash
   npm install bun
   ```
-  - Inorder to run a seerer we use the below command from `NodeJs`
+  - Inorder to run a node server we use the below command,
   ```bash
   node server-node.js
+  ```
+  - Inorder to run a bun server we use the below command,
+  ```bash
+  bun server-bun.js
   ```
