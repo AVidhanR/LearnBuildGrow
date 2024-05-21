@@ -1,6 +1,6 @@
 ## Go Lang
 
-- Install `go` from the official [`site`]()
+- Install `go` from the official [`site`](https://go.dev/doc/install)
 - Install the `go` extension in `Visual Studio Code`
 - Before running a file it's a best practice to create a mod file
 
