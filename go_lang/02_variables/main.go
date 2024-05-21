@@ -2,22 +2,15 @@ package main
 
 import "fmt"
 
+// can't use it here...
+// noVar := 1000
+
+// this is a constant available everywhere!
+// it's like using a public variable
+// In go_lang, constants are declared in PascalCase
+const LoginToken = 3000
+
 func main() {
-
-	// string type
-	var username string = "Vidhan";
-	fmt.Println(username)
-	fmt.Printf("Variable type is: %T \n\n", username)
-
-	// bool type
-	var isLogged bool = true;
-	fmt.Println(isLogged)
-	fmt.Printf("Variable type is: %T \n\n", isLogged)
-    
-	// unsigned 8-bit integer
-	var smallValue uint8 = 255; // >255 cannot be taken you know the reason
-	fmt.Println(smallValue);
-	fmt.Printf("Variable type is: %T \n\n", smallValue)
 
 	/*
 	uint8       the set of all unsigned  8-bit integers (0 to 255)
@@ -40,4 +33,42 @@ func main() {
 	rune        alias for int32
 	*/
 
+	// string type
+	var username string = "Vidhan";
+	fmt.Println(username)
+	fmt.Printf("Variable type is: %T \n\n", username)
+
+	// bool type
+	var isLogged bool = true;
+	fmt.Println(isLogged)
+	fmt.Printf("Variable type is: %T \n\n", isLogged)
+    
+	// unsigned 8-bit integer
+	var smallValue uint8 = 255; // >255 cannot be taken you know the reason
+	fmt.Println(smallValue);
+	fmt.Printf("Variable type is: %T \n\n", smallValue)
+
+	var smallFloat float64 = 255.3423525243343;
+	fmt.Println(smallFloat);
+	fmt.Printf("Variable type is: %T \n\n", smallFloat)
+
+	// default values and aliases
+	var intVariable int;
+	fmt.Println(intVariable);
+	fmt.Printf("Variable type is: %T \n\n", intVariable)
+
+	var stringVariable string;
+	fmt.Println(stringVariable);
+	fmt.Printf("Variable type is: %T \n\n", stringVariable);
+	
+	// implicit type assigning by lexer
+	var implicitVar = "Vidhan Reddy A";
+	fmt.Println(implicitVar);
+
+	// no var style - only inside a method, 
+	// outside it is banned!
+	userCount := 2000
+	fmt.Println(userCount)
+	fmt.Println("")
+	fmt.Println(`This is a constant: `,LoginToken)
 }
