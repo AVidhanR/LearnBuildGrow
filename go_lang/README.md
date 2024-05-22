@@ -9,7 +9,7 @@ go mod init <module_name>
 ```
 
 - In the above command, `module_name` can be anything!
-- To run any file in `go`
+- To run any `go` file in terminal
 
 ```bash
 go run main.go
