@@ -8,7 +8,7 @@
 go mod init <module_name>
 ```
 
-- In the above command `module_name` can be anything!
+- In the above command, `module_name` can be anything!
 - To run any file in `go`
 
 ```bash
