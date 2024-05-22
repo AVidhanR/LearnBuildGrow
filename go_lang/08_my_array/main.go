@@ -18,6 +18,7 @@ func main() {
 	fmt.Println("Fruits List Length: ", len(fruitList))
 
 	// initialize it during the declaration
+	// 2nd type of declaring arrays
 	var vegList = [5]string{"Potato", "Beans", "Onions"};
 	fmt.Println("Vegetable List: ", vegList);
 	fmt.Println("Vegetable List length: ", len(vegList));
