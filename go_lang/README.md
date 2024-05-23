@@ -8,8 +8,8 @@
 go mod init <module_name>
 ```
 
-- In the above command `module_name` can be anything!
-- To run any file in `go`
+- In the above command, `module_name` can be anything!
+- To run any `go` file in terminal
 
 ```bash
 go run main.go
@@ -17,4 +17,6 @@ go run main.go
 
 - Learning from YouTube (Hitesh)
 ----
+## Documentations to look into
 - Check out the packages in `go` from [`here`](https://pkg.go.dev/)
+- Check out the `time` package in `go` from [`here`](https://pkg.go.dev/time)
