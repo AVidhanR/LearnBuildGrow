@@ -1,6 +1,7 @@
 ## `Learn Build Grow`
 
-- Whatever I learn and code will be in this repository. For now, I have kept go_lang and backend.
+- Whatever I learn and code will be in this repository.
+- For now, I kept `backend` and `go_lang`
 ----
 - Check out the `go_lang` practice code that I have done during my learning days from [`here`](https://github.com/AVidhanR/LearnBuildGrow/tree/main/go_lang)
 - Each folder is in the format of `00_topic_name`
