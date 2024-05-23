@@ -23,6 +23,24 @@ func main() {
 	// proAdder() with 6 params with 2 return values
 	proResult, extra := proAdder(1, 2, 3, 4, 5, 6);
 	fmt.Println("The result of proAdder(6 parameters) function: ", proResult, " ", extra);
+
+	/*
+	 func() {
+  		// Function body here
+	}
+	// anonymous function declaration in go
+	*/
+	// create an anonymous function in go_lang
+	greet := func() string {
+		return "Hello, World!";
+	}
+	greet();
+
+	// anonymous function - immediate execution
+	// cannot call it outside the scope
+	func() {
+		fmt.Println("Anonymous function - immediate execution");
+	}()
 }
 
 // create a function (declaration)
