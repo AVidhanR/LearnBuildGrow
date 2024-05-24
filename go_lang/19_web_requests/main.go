@@ -8,7 +8,7 @@ import (
 )
 
 // this is important make sure to open it before you are running this file.
-const url = "http://127.0.0.1:3000/go_lang/19_web_requests/main.html"
+const url = "http://localhost:3000/go_lang/19_web_requests/main.html"
 
 func main() {
 	fmt.Println("Welcome to web_requests in go_lang")
