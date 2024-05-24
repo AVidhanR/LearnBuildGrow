@@ -13,6 +13,7 @@ const url = "http://127.0.0.1:3000/go_lang/19_web_requests/main.html"
 func main() {
 	fmt.Println("Welcome to web_requests in go_lang")
 	fmt.Println()
+
 	// HTTP - GET in go_lang
 	response, err := http.Get(url)
 	handleError(err)
@@ -40,6 +41,7 @@ func main() {
 	fmt.Println("data in the web page: ", string(databytes), "number of characters: ", n)
 }
 
+// for handling the error!
 func handleError(err error) {
 	if err != nil {
 		panic(err)
