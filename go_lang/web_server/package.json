@@ -1,0 +1,20 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "Web Server to experiment and leanr go_lang",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "webserver",
+    "avr"
+  ],
+  "author": "A Vidhan Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^2.0.22"
+  }
+}
