@@ -1,5 +1,7 @@
 package main
 
+// perform this code only after running the web_server
+
 import (
 	"bytes"
 	"fmt"
@@ -14,10 +16,10 @@ func main() {
 	fmt.Println()
 
 	// call the GET here
-	// PerformGetRequest()
+	PerformGetRequest()
 
 	// call the POST here
-	// PerformPostJSONRequest()
+	PerformPostJSONRequest()
 
 	// call the PostForm here
 	PerformPostFormRequest()
