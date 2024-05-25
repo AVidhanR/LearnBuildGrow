@@ -26,7 +26,7 @@ func main() {
 
 }
 
-// Public
+// Public GET request
 func PerformGetRequest() {
 	const myUrl string = "http://localhost:3000/get"
 
@@ -67,7 +67,7 @@ func PerformGetRequest() {
 	fmt.Println("The content is: ", responseStr.String())
 }
 
-// Public
+// Public POST request
 func PerformPostJSONRequest() {
 	const myUrl string = "http://localhost:3000/post"
 
@@ -102,6 +102,7 @@ func PerformPostJSONRequest() {
 	fmt.Println()
 }
 
+// Public PostForm request
 func PerformPostFormRequest() {
 	const myUrl string = "http://localhost:3000/postForm"
 
