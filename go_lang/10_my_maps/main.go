@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Welcome to maps in go_lang");
+	fmt.Println("Welcome to maps in go_lang")
 
 	// create a map using make()
 	progLangs := make(map[string]string)
@@ -14,13 +14,13 @@ func main() {
 	progLangs["CPP"] = "C++"
 	progLangs["RB"] = "ruby"
 
-	fmt.Println("The languages ", progLangs);
-	fmt.Println("The value of JS ", progLangs["JS"]);
+	fmt.Println("The languages ", progLangs)
+	fmt.Println("The value of JS ", progLangs["JS"])
 
 	// delete an element in maps
 	// can do same in slices
-	delete(progLangs, "RB");
-	fmt.Println("The languages ", progLangs);
+	delete(progLangs, "RB")
+	fmt.Println("The languages ", progLangs)
 
 	// for loop in go for maps
 	for key, value := range progLangs {
@@ -29,7 +29,7 @@ func main() {
 
 	// lets ignore the keys by placing '_'
 	for _, value := range progLangs {
-		fmt.Printf("For key v, Value %v\n",  value)
+		fmt.Printf("For key v, Value %v\n", value)
 	}
 
 }

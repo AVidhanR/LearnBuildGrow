@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	fmt.Println("Welcome to arrays in go_lang")
 
-	// mention the array size explicitly! 
+	// mention the array size explicitly!
 	// don't forget it!
-	var fruitList [4]string;
+	var fruitList [4]string
 	fruitList[0] = "Peach"
 	fruitList[1] = "Tomato"
 	fruitList[2] = "Apple"
@@ -19,7 +19,7 @@ func main() {
 
 	// initialize it during the declaration
 	// 2nd type of declaring arrays
-	var vegList = [5]string{"Potato", "Beans", "Onions"};
-	fmt.Println("Vegetable List: ", vegList);
-	fmt.Println("Vegetable List length: ", len(vegList));
+	var vegList = [5]string{"Potato", "Beans", "Onions"}
+	fmt.Println("Vegetable List: ", vegList)
+	fmt.Println("Vegetable List length: ", len(vegList))
 }

@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Enter the rating: ")
 	reader := bufio.NewReader(os.Stdin)
 
-	// input is read here V_V 
+	// input is read here V_V
 	// comma ok || err err
 	// the underscore part "stores" the errors
 	input, _ := reader.ReadString('\n') // only single quotes!
