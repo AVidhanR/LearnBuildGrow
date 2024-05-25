@@ -1,6 +1,6 @@
 /* 
     web_server for the directories
-    21_
+    21_, 22_, 23_
     
     // '$' used to denote that its a command to run in a terminal
     // don't type in the '$' too
