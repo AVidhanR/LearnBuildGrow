@@ -12,8 +12,9 @@ func main() {
 	fmt.Println("Welcome to web_requests_handling in go_lang")
 	fmt.Println()
 
-	// call it here
-	PerformGetRequest()
+	// call the GET it here
+	// PerformGetRequest()
+
 }
 
 // Public
@@ -47,7 +48,7 @@ func PerformGetRequest() {
 
 	fmt.Println()
 	// 2nd way of doing the same thing as above
-	// mostly used by go devs
+	// mostly used by go dev's
 	var responseStr strings.Builder
 
 	byteCount, err := responseStr.Write(content)
@@ -55,6 +56,40 @@ func PerformGetRequest() {
 
 	fmt.Println("The Byte count is: ", byteCount)
 	fmt.Println("The content is: ", responseStr.String())
+}
+
+func PerformPostJSONRequest() {
+	const myUrl string = "http://localhost:3000/post"
+
+	// fake JSON payload
+	requestBody := strings.NewReader(`
+		{
+			"course": "Lets go with go_lang",
+			"price": 0,
+			"platform": "avr.in"
+		}
+	`)
+
+	response, err := http.Post(myUrl, "application/json", requestBody)
+	handleError(err)
+	defer response.Body.Close()
+
+	/*
+		ioutil.ReadAll() is deprecated
+		data bytes, err := ioutil.ReadAll(response.Body)
+	*/
+
+	// create a buffer to store the response body
+	buffer := bytes.NewBuffer(nil)
+
+	// copy the response body to the buffer
+	n, err := io.Copy(buffer, response.Body)
+	handleError(err)
+
+	content := buffer.Bytes()
+
+	fmt.Println("data in the web page: ", string(content), "\nnumber of characters: ", n)
+	fmt.Println()
 }
 
 // private or default
