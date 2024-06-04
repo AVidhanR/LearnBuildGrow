@@ -18,3 +18,9 @@ node -v
 ```bash
 npm install -g typescript
 ```
+
+- Check the version of typescript using the below command,
+
+```bash
+tsc -v
+```
