@@ -37,4 +37,49 @@ let user: User = {
     console.log(name);
     return 2;
   },
+  gitToken: 2123242424,
+};
+
+/**
+ * PART TWO
+ */
+// add more fields just like this
+// reopening of interface... (V.V)
+interface User {
+  gitToken: number;
+}
+
+interface Another {
+  canDoThis?: string;
+}
+
+// can use inheritance in interface concept
+// can inherit more than one!
+interface Admin extends User, Another {
+  role: "admin" | "learner";
+}
+
+// create an admin role using `Admin`
+let reddy: Admin = {
+  dbId: 2,
+  email: "red@gmail.com",
+  userId: 2,
+  /*
+    // can write like this too!
+    startTrail: () => {
+        return "";
+    },
+  */
+  startTrail() {
+    return "start trail of Admin!";
+  },
+
+  // no need to take as `couponName`
+  // can make a reference - such as `name` here
+  getCoupon(name: "Red") {
+    console.log(name);
+    return 2;
+  },
+  gitToken: 2123242424,
+  role: "admin",
 };
