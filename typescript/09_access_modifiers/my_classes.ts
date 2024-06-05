@@ -88,8 +88,11 @@ class SubUser extends Course {
   // now we can get the courseId here
   // but not outside the class!
   changeCourseId() {
-    this.courseId = 2;
+    this.courseId = 2 + this.courseId;
   }
 }
+
+let subUser = new SubUser("nextJs", 132, 699);
+console.log(subUser);
 
 export {};
