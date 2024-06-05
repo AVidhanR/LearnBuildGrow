@@ -24,3 +24,8 @@ npm install -g typescript
 ```bash
 tsc -v
 ```
+----
+- Compile the `.ts` file to `.js` file by running the below command,
+```bash
+tsc <file_name.ts>
+```
