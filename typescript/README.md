@@ -7,7 +7,7 @@
 
 - Extension for `typescript` is `ts`
 - Before installing typescript make sure to have nodeJs.
-- Check the `node` version by running the below shell,
+- Check the `node` version by running the below command,
 
 ```bash
 node -v
