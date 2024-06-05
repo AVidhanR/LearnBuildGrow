@@ -46,7 +46,7 @@ let Red: Admin = {
 // getters and setters in ts
 class Course {
   public courseName: string;
-  private courseId: number;
+  protected courseId: number;
   constructor(courseName: string, courseId: number, public price: number) {
     this.courseName = courseName;
     this.courseId = courseId;
@@ -79,3 +79,17 @@ course.setCourseId = 2;
 
 // use getter like this in ts
 console.log(course.getCourseId);
+
+// protected in ts
+class SubUser extends Course {
+  // cannot access the private here - same as other languages
+  isFamily?: boolean;
+
+  // now we can get the courseId here
+  // but not outside the class!
+  changeCourseId() {
+    this.courseId = 2;
+  }
+}
+
+export {};
