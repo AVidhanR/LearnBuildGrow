@@ -14,4 +14,3 @@ npm install winston morgan
 
 - Recommended website to understand the code in `logger.js` of `02_express` directory is [this](https://docs.chaicode.com/advance-node-logger/)
 - Check about the logger I used here i.e. **winston** [(check the documentation here)](https://github.com/winstonjs/winston)
-- Use appropriate commands to run the above modules.
