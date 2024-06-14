@@ -1,4 +1,4 @@
-require("dotenv").config();
+import "dotenv/config";
 import express from "express";
 
 const app = express();
@@ -11,7 +11,7 @@ let teaData = [];
 let nextID = 1;
 
 app.listen(port, () => {
-  console.log(`Serer running @ ${port}`);
+  console.log(`Server running @ ${port}`);
 });
 
 //root
