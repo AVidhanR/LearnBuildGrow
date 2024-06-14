@@ -1,14 +1,18 @@
+import "dotenv/config";
 import express from "express";
 
 const app = express();
-const port = 3000;
+
+// good practice to use env variables
+// rather than direct value injection
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 let teaData = [];
 let nextID = 1;
 
 app.listen(port, () => {
-  console.log(`Serer running @ ${port}`);
+  console.log(`Server running @ ${port}`);
 });
 
 //root
