@@ -5,6 +5,6 @@
   - `Postman` | `MongoDB` | `NodeJs`
 - I used the port number as 3000 and in order to check for the response and give requests to server via postman I used `127.0.0.1:3000`
 - After installing the above make sure to install the `bun` package while using `web_server` directory.
-- To experiment/access the `express` directory make sure install the [`express`](https://expressjs.com/) package.
+- To experiment/access the `express` directory make sure install the [express](https://expressjs.com/) package.
 -
 - Use appropriate commands to run the above modules.
