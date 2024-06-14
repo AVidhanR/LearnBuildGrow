@@ -3,7 +3,8 @@ import express from "express";
 
 const app = express();
 
-// good practice to use env variables rather than direct value injection
+// good practice to use env variables
+// rather than direct value injection
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
