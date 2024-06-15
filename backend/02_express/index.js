@@ -3,6 +3,7 @@ import logger from "./logger.js";
 import morgan from "morgan";
 import express from "express";
 
+// create the app
 const app = express();
 
 // good practice to use env variables
