@@ -13,8 +13,19 @@ app.use(express.json());
 let teaData = [];
 let nextID = 1;
 
+// Define a string variable 'morganFormat' to specify the format of the log messages
+// The format includes the HTTP method, URL, status code, and response time
 const morganFormat = ":method :url :status :response-time ms";
 
+// Use the 'morgan' middleware to log HTTP requests
+// Pass the 'morganFormat' string as the first argument to specify the log format
+// Pass an options object as the second argument to specify a custom stream for logging
+// Define the 'stream' object with a 'write' method that will be called for each log message
+// The 'write' method receives a single string argument 'message' containing the log message
+// Construct a log object 'logObject' by splitting the 'message' string into an array
+// Extract the method, url, status, and response time from the array and assign them to the 'logObject'
+// Convert the 'logObject' to a JSON string using 'JSON.stringify()'
+// Pass the JSON string to the 'logger.info()' method to log the message at the 'info' level
 app.use(
   morgan(morganFormat, {
     stream: {
