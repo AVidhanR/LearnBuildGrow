@@ -1,5 +1,5 @@
 import "dotenv/config";
-import logger from "./logger";
+import logger from "./logger.js";
 import morgan from "morgan";
 import express from "express";
 
