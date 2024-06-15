@@ -63,6 +63,10 @@ app.post("/tea", (req, res) => {
   const newTea = { id: nextID++, name, price };
   teaData.push(newTea);
   res.status(201).send(newTea);
+
+  // use this for better log info
+  // can use .warn() too - other than .info()
+  logger.info("A `POST` request is made for creating a tea");
 });
 
 //get all tea data
