@@ -1,6 +1,6 @@
 ## NextJs
 
-- Learning from [hitesh_choudhary](https://youtu.be/iPGXk-i-VYU?si=fistNx-ZawGhiO5T) from `YouTube`.
+- Learning from [hitesh_choudhary](https://youtu.be/iPGXk-i-VYU?si=fistNx-ZawGhiO5T) | `YouTube`.
 - Create the next_js app using the below command,
 
 ```bash
