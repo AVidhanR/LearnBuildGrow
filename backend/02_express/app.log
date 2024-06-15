@@ -1,0 +1,5 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/tea\",\"status\":\"200\",\"responseTime\":\"5.681\"}","timestamp":"2024-06-15T03:51:45.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/tea\",\"status\":\"201\",\"responseTime\":\"1.200\"}","timestamp":"2024-06-15T03:51:54.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/tea\",\"status\":\"201\",\"responseTime\":\"0.517\"}","timestamp":"2024-06-15T03:52:09.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A `POST` request is made for creating a tea","timestamp":"2024-06-15T03:54:46.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/tea\",\"status\":\"201\",\"responseTime\":\"6.546\"}","timestamp":"2024-06-15T03:54:46.673Z"}
