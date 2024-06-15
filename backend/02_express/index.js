@@ -1,4 +1,5 @@
 import "dotenv/config";
+import logger from "./logger";
 import express from "express";
 
 const app = express();
