@@ -21,7 +21,7 @@
 
 ---
 
-### `NextJs`
+### `NextJS`
 
 - Check out the `next_js` practice code that I have done during my learning days from [here](https://github.com/AVidhanR/LearnBuildGrow/tree/main/next_js)
 - I added comments in order to get a better understanding for myself and others who visit it.
