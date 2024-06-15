@@ -8,7 +8,7 @@ const app = express();
 
 // good practice to use env variables
 // rather than direct value injection
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.use(express.json());
 let teaData = [];
