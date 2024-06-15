@@ -1,3 +1,3 @@
 ## NextJs
 
-- Going to start `nextJs` soon.
+- Going to start `nextJS` soon.
