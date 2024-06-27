@@ -1,1 +1,6 @@
-console.log("Hello form backend! built by AVidhanR!");
+import { app } from "./app";
+
+const PORT = process.env.PORT || 9000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
