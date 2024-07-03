@@ -22,6 +22,14 @@ const likeSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "User",
     },
+    comment: {
+      type: Schema.Types.ObjectId,
+      ref: "Comment",
+    },
+    tweet: {
+      type: Schema.Types.ObjectId,
+      ref: "Tweet",
+    },
   },
   { timestamps: true }
 );
