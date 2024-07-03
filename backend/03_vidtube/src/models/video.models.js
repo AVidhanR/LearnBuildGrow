@@ -14,6 +14,7 @@ videos [icon: video] {
 */
 
 import mongoose, { Schema } from "mongoose";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 const videoSchema = new Schema(
   {
@@ -52,5 +53,8 @@ const videoSchema = new Schema(
   },
   { timestamps: true }
 );
+
+// Add mongoose paginate plugin for videoSchema to enable pagination for videos in the future (e.g., /videos?page=1&limit=10)
+videoSchema.plugin(mongooseAggregatePaginate);
 
 export const User = mongoose.model("Video", videoSchema);
