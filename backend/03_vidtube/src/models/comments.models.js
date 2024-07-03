@@ -9,6 +9,7 @@ comments [icon: comment] {
 */
 
 import mongoose, { Schema } from "mongoose";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 const commentSchema = new Schema(
   {
@@ -27,5 +28,8 @@ const commentSchema = new Schema(
   },
   { timestamps: true }
 );
+
+// Add mongoose paginate plugin for commentSchema to enable pagination for comments in the future (e.g., /comments?page=1&limit=10)
+commentSchema.plugin(mongooseAggregatePaginate);
 
 export const Comment = mongoose.model("Comment", commentSchema);
