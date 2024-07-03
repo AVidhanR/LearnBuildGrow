@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 
 // import routes
-import HealthCheckRouter from "./routes/healthCheck.route";
+import HealthCheckRouter from "./routes/healthCheck.route.js";
 
 const app = express();
 
