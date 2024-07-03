@@ -1,6 +1,6 @@
 // Higher-order function to wrap asynchronous request handlers
 
-const asyncHandler = (reqHandler) => {
+const AsyncHandler = (reqHandler) => {
   // Returns a middleware function that handles asynchronous request handlers
 
   return (req, res, next) => {
@@ -13,3 +13,5 @@ const asyncHandler = (reqHandler) => {
       });
   };
 };
+
+export { AsyncHandler };
