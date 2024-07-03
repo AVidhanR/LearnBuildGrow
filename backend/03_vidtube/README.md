@@ -7,11 +7,9 @@
 - There are few other devDependencies used for development purpose.
 - The project is developed by [A Vidhan Reddy](https://github.com/AVidhanR)
 
----
-
 ## Packages used
 
-### CORS
+### `cors`
 
 - The Cross-Origin Resource Sharing (CORS) package is a browser-based HTTP header mechanism that **allows a server or API to indicate which origins can access and load resources**. CORS can be used for a number of purposes, including:
   - Security:
@@ -22,3 +20,16 @@
     CORS can relax the guard that internet browsers typically deny access to unknown websites.
   - Exercising more control:
     CORS allows you to exercise more control over which websites should be allowed access to your server's resources
+
+```bash
+npm i cors
+```
+
+### `mongoose-aggregate-paginate-v2`
+
+- The mongoose-aggregate-paginate-v2 package for Mongoose allows users to paginate results at a specific placeholder stage in a pipeline, instead of at the end. This can be useful when working with large datasets and wanting to paginate before performing expensive operations, such as $lookup or $unwind.
+- The package also includes customizable labels.
+
+```bash
+npm i mongoose-aggregate-paginate-v2
+```
