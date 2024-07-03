@@ -40,3 +40,5 @@ class APIError extends Error {
 
 // Export the APIError class to be used in other modules
 export { APIError };
+
+// comments by Gemini
