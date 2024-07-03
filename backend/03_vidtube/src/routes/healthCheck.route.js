@@ -10,4 +10,4 @@ router.get("/", HealthCheck);
  * router.route("/").get(HealthCheck);
  */
 
-export default router;
+export default HealthCheckRouter;

@@ -1,6 +1,9 @@
 import express from "express";
 import cors from "cors";
 
+// import routes
+import HealthCheckRouter from "./routes/healthCheck.route";
+
 const app = express();
 
 app.use(
@@ -19,5 +22,8 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 
 // Configure Express app to serve static files from the "public" directory
 app.use(express.static("public"));
+
+// use routes
+app.use("/api/v1/health", HealthCheckRouter);
 
 export { app };
