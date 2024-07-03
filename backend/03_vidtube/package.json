@@ -1,0 +1,31 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "A project inspired by YouTube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "A Vidhan Reddy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fund": "^1.0.0",
+    "mongoose": "^8.4.4"
+  }
+}
