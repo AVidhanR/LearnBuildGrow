@@ -1,6 +1,5 @@
 /* 
 videos [icon: video] {
-  id string pk
   owner ObjectId users
   videoFile string
   thumbnail string

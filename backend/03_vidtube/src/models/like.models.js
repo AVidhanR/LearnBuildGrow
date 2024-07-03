@@ -1,6 +1,5 @@
 /*
 likes [icon: thumbs-up] {
-  id string pk
   video ObjectId videos
   comment ObjectId comments
   tweet ObjectId tweets

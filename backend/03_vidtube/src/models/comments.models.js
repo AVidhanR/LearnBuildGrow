@@ -1,6 +1,5 @@
 /* 
 comments [icon: comment] {
-  id string pk
   video ObjectId videos
   owner ObjectId users
   content string

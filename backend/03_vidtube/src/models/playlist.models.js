@@ -1,6 +1,5 @@
 /*
 playlists [icon: library] {
-  id string pk
   owner ObjectId users
   videos ObjectId[] videos
   name string

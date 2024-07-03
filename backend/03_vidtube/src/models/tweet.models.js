@@ -1,6 +1,5 @@
 /* 
 tweets [icon: twitter] {
-  id string pk
   owner ObjectId users
   content string
   createdAt Date

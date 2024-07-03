@@ -1,6 +1,5 @@
 /*
 users [icon: user] {
-  id string pk
   username string
   email string
   fullName string
