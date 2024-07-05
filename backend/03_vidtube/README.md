@@ -50,7 +50,7 @@ npm i bcrypt
 npm i jsonwebtoken
 ```
 
-### mongoose
+### `mongoose`
 
 - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks. It is a **MongoDB object modeling tool that provides a schema-based solution to model your application data**. It includes built-in type casting, validation, query building, business logic hooks, and more, out of the box.
 
