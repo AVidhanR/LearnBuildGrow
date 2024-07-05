@@ -41,3 +41,7 @@ npm i mongoose-aggregate-paginate-v2
 ```bash
 npm i bcrypt
 ```
+
+### `jsonwebtoken`
+
+-
