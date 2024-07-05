@@ -33,3 +33,11 @@ npm i cors
 ```bash
 npm i mongoose-aggregate-paginate-v2
 ```
+
+### `bcrypt`
+
+- The bcrypt package is a password-hashing function that is used to hash passwords. It is a one-way hash function that converts passwords into a string of characters that cannot be reversed. This means that the original password cannot be retrieved from the hash.
+
+```bash
+npm i bcrypt
+```
