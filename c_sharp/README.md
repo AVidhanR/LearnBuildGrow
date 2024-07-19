@@ -4,7 +4,7 @@
 - An assembly is a unit of deployment that groups related code and resources. It's typically a single DLL (Dynamic Link Library) or EXE (executable) file.
 - This means other classes in the same project can access the member, but classes in a different project (even if it references the same assembly) cannot.
 
-### `protecteddd internal` access modifier:
+### `protected internal` access modifier:
 - Members marked as protected internal combine the accessibility of protected and internal.
 - They are accessible from:
  - Any code within the same assembly (like internal).
@@ -12,13 +12,13 @@
 
 ---
 
-### relationships:
+### `relationships`:
 - class - class => `is-a` relationship.
 - object - class => `has-a` relationship.
 
 ---
 
-### interface implementation: 
+### `interface` implementation: 
 - observe the below sample code explaining the `interface` implementaion.
 ```cs
 interface i1 {
@@ -43,9 +43,7 @@ public class c : i1, i2 {
   }
 }
 ```
-
-
-
+---
 
 ### 📓 note:
 - interfaces cannot contain constructors and fields.
