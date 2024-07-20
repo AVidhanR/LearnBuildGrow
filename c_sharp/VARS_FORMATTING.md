@@ -38,6 +38,8 @@ var message = "Hello world!";
 Console.WriteLine(@"    c:\source\repos    
         (this is where your code goes)");
 ```
-> [!OUTPUT]
-> c:\source\repos    
+output: 
+```text
+c:\source\repos    
         (this is where your code goes)
+```
