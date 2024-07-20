@@ -6,8 +6,6 @@
 - Cloud-based applications.
 - Mobile applications.
 
----
-
 #### Write your first line of code, in-order to print `Hello, World!`:
 ```cs
 Console.WriteLine("Hello, World!");
