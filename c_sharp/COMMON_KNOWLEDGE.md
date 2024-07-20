@@ -20,6 +20,12 @@ At this point, a developer can update and change the code, but the computer can'
 - Those rules define the keywords and operators of C# and how they are put together to form programs.
 
 --- 
+ - `string` for words, phrases, or any alphanumeric data for presentation, not calculation.
+- `char` for a single alphanumeric character.
+- `int` for a whole number.
+- `decimal` for a number with a fractional component.
+- `bool` for a true/false value.
+--- 
 > [!IMPORTANT]
 > Hello important
 
