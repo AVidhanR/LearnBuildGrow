@@ -26,6 +26,11 @@ At this point, a developer can update and change the code, but the computer can'
 - `int` for a whole number.
 - `decimal` for a number with a fractional component.
 - `bool` for a true/false value.
+
+## What is a variable?
+A variable is a container for storing a type of value. Variables are important because their values can change, or vary, throughout the execution of a program. Variables can be assigned, read, and changed. You use variables to store values that you intend to use in your code.
+
+A variable name is a human-friendly label that the compiler assigns to a memory address. When you want to store or change a value in that memory address, or whenever you want to retrieve the stored value, you just use the variable name you created.
 --- 
 > [!IMPORTANT]
 > Hello important
