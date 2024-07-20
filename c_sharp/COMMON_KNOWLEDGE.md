@@ -28,12 +28,25 @@ At this point, a developer can update and change the code, but the computer can'
 - `bool` for a true/false value.
 
 ## What is a variable?
-A variable is a container for storing a type of value. Variables are important because their values can change, or vary, throughout the execution of a program. Variables can be assigned, read, and changed. You use variables to store values that you intend to use in your code.
+- A variable is a container for storing a type of value.
+- Variables are important because their values can change, or vary, throughout the execution of a program.
+- Variables can be assigned, read, and changed. You use variables to store values that you intend to use in your code.
+- A variable name is a human-friendly label that the compiler assigns to a memory address.
+- When you want to store or change a value in that memory address, or whenever you want to retrieve the stored value, you just use the variable name you created.
 
-A variable name is a human-friendly label that the compiler assigns to a memory address. When you want to store or change a value in that memory address, or whenever you want to retrieve the stored value, you just use the variable name you created.
+## What are implicitly typed local variables?
+- An implicitly typed local variable is created by using the var keyword followed by a variable initialization. For example:
+```cs
+var message = "Hello world!";
+```
+- The `var` keyword tells the C# compiler that the data type is implied by the assigned value.
+- After the type is implied, the variable acts the same as if the actual data type had been used to declare it.
+- The var keyword is used to save on keystrokes when types are lengthy or when the type is obvious from the context.
+> [!NOTE]
+> Other programming languages use the var keyword differently. In C#, variables are assigned a type by the compiler regardless of whether you use the actual data type name or allow the compiler to imply the data type. In other words, the type is locked in at the time of declaration and therefore will never be able to hold values of a different data type.
 --- 
-> [!IMPORTANT]
+<!-- > [!IMPORTANT]
 > Hello important
 
 > [!TIP]
-> Hello tip
+> Hello tip -->
