@@ -18,3 +18,10 @@ At this point, a developer can update and change the code, but the computer can'
 - The rules for writing C# code is called syntax. 
 - Just like human languages have rules regarding punctuation and sentence structure, computer programming languages also have rules.
 - Those rules define the keywords and operators of C# and how they are put together to form programs.
+
+--- 
+> [!IMPORTANT]
+> Hello important
+
+> [!TIP]
+> Hello tip
