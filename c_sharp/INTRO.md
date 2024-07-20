@@ -8,12 +8,12 @@
 
 ---
 
-- Write your first line of code, in-order to print **Hello, World!**
+#### Write your first line of code, in-order to print **Hello, World!**:
 ```cs
 Console.WriteLine("Hello, World!");
 ```
 
-### The difference between Console.Write and Console.WriteLine
+#### The difference between Console.Write and Console.WriteLine:
 - `Console.WriteLine()` prints a message to the output console. At the end of the line, it adds a line feed similar to pressing Enter or Return to create a new line.
 - To print to the output console, but without adding a line feed at the end, you use the second technique, `Console.Write()`. So, the next call to Console.Write() prints another message to the same line.
 
