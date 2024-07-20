@@ -44,6 +44,13 @@ var message = "Hello world!";
 - The var keyword is used to save on keystrokes when types are lengthy or when the type is obvious from the context.
 > [!NOTE]
 > Other programming languages use the var keyword differently. In C#, variables are assigned a type by the compiler regardless of whether you use the actual data type name or allow the compiler to imply the data type. In other words, the type is locked in at the time of declaration and therefore will never be able to hold values of a different data type.
+> Variables using the var keyword must be initialized.
+## Why use the var keyword?
+- The var keyword has an important use in C#. Many times, the type of a variable is obvious from its initialization.
+- In those cases, it's simpler to use the var keyword.
+- The var keyword can also be useful when planning the code for an application.
+- When you begin developing code for a task, you may not immediately know what data type to use.
+- Using var can help you develop your solution more dynamically.
 --- 
 <!-- > [!IMPORTANT]
 > Hello important
