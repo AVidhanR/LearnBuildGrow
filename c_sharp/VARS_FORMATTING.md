@@ -21,8 +21,7 @@ var message = "Hello world!";
 - After the type is implied, the variable acts the same as if the actual data type had been used to declare it.
 - The var keyword is used to save on keystrokes when types are lengthy or when the type is obvious from the context.
 > [!NOTE]
-> Other programming languages use the var keyword differently. In C#, variables are assigned a type by the compiler regardless of whether you use the actual data type name or allow the compiler to imply the data type. In other words, the type is locked in at the time of declaration and therefore will never be able to hold values of a different data type.
-> Variables using the var keyword must be initialized.
+> Other programming languages use the var keyword differently. In C#, variables are assigned a type by the compiler regardless of whether you use the actual data type name or allow the compiler to imply the data type. In other words, the type is locked in at the time of declaration and therefore will never be able to hold values of a different data type. Variables using the var keyword must be initialized.
 
 ## Why use the var keyword?
 - The var keyword has an important use in C#. Many times, the type of a variable is obvious from its initialization.
@@ -43,3 +42,10 @@ output:
 c:\source\repos    
         (this is where your code goes)
 ```
+
+> [!IMPORTANT]
+> Use character escape sequences when you need to insert a special character into a literal string, like a tab `\t`, new line `\n`, or a double quotation mark `\"`.
+Use an escape character for the backslash `\\` when you need to use a backslash in all other scenarios.
+Use the `@` directive to create a verbatim string literal that keeps all whitespace formatting and backslash characters in a string.
+Use the `\u` plus a four-character code to represent Unicode characters (UTF-16) in a string.
+Unicode characters may not print correctly depending on the application.
