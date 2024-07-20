@@ -15,6 +15,4 @@ Console.WriteLine("Hello, World!");
 
 > [!NOTE]
 > `.cs` is the extension for the C# programming language.
-
-> [!CAUTION]
-> C# doesn't have ability to perform multiple inheritance directly just like `java`
+> for example, in-order to create a `C#` file named **sampleProgram** we create like this; `sampleProgram.cs`
