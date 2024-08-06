@@ -30,5 +30,6 @@
 
 > [!NOTE]
 > - This `repo` will be updated every time I learn something new or continue my learning.
-- If you liked it, star and forward to your friends if there are interested in.
+> - If you liked it, star and forward to your friends if there are interested in.
+
 - By [A Vidhan Reddy](https://linkedin.com/in/AVidhanR)
