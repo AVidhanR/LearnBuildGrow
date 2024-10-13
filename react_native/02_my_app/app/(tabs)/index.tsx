@@ -10,6 +10,7 @@ const App = () => {
 
 export default App;
 
+// adding styles
 const Styles = StyleSheet.create({
   container: {
     flex: 1,
