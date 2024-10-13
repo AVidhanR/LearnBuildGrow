@@ -9,11 +9,14 @@
 ---
 
 > [!TIP]
+>
 > - Create a new empty file in `powershell` using the below command
+>
 > ```bash
 > # let's create a demo typescript file
 > New-Item -ItemType File -Name "main.ts"
 > ```
+>
 > - View Content of the file in `powershell` using the below command
 >
 > ```bash
