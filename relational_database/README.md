@@ -5,3 +5,9 @@
 - This repo is performed from the course list of `freeCodeCamp` relational database course.
 - Feel free to explore the course from [here](https://www.freecodecamp.org/learn/relational-database/)
 - Created and maintained by [AVidhanR](https://linkedin.com/in/AVidhanR)
+> [!TIP]
+> Create a new empty file in `powershell` using the below command
+> ```bash
+> # let's create a demo typescript file
+> New-Item -ItemType File -Name "main.ts"
+> ```
