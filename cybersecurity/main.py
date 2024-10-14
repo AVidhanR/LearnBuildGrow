@@ -16,9 +16,6 @@ def main():
     cryptography.encrypt_data("Hello, World!")
     cryptography.decrypt_data(cryptography.encrypt_data("Hello, World"))
 
-    # Run authentication module
-    authentication.authenticate_user("user", "password")
-
     # Run secure remote access module
     secure_remote_access.establish_remote_connection()
 
@@ -29,8 +26,6 @@ def main():
     secure_data.encrypt_data("Hello, World!")
     secure_data.decrypt_data(secure_data.encrypt_data("Hello, World"))
 
-    # Run cloud security module
-    cloud_security.manage_cloud_security()
 
 if __name__ == "__main__":
     main()
