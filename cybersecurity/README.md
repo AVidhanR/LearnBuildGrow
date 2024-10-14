@@ -6,3 +6,4 @@
 pip install -r requirements.txt
 ```
 - Created and maintained by [AVidhanR](https://linkedin.com/in/AVidhanR)
+- I'm still a beginner in `cybersecurity` - so if there are any errors - please do notify me via an `issue`
