@@ -1,5 +1,5 @@
 ## Cybersecurity 
-- A project on " Secure Network Monitoring and Threat Detection System" using `Python` and necessary packages.
+- A project on "Secure Network Monitoring and Threat Detection System" using `Python` and necessary packages.
 - Explore the code to know more.
 - In order to run the `cybersecurity` codes make sure to install the packages using below commands
 ```bash
