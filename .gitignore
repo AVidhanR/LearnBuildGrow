@@ -4,3 +4,4 @@ secret.key
 *.md.enc
 *.py.enc
 action_log.txt
+cybersecurity/*.py
